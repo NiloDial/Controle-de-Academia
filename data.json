@@ -1,0 +1,63 @@
+{
+  "members": [
+    {
+      "id": 1,
+      "avatar_url": "https://source.unsplash.com/collection/3465564/500x500",
+      "name": "nilo",
+      "email": "nilodias15@hotmail.com",
+      "birth": 1038873600000,
+      "gender": "M",
+      "weight": "55",
+      "height": "175"
+    },
+    {
+      "id": 2,
+      "avatar_url": "https://images.unsplash.com/photo-1517836357463-d25dfeac3438?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1050&q=80",
+      "name": "Luiza",
+      "email": "luiza10@hotmail.com",
+      "birth": null,
+      "gender": "F",
+      "weight": "60",
+      "height": "165"
+    },
+    {
+      "id": 3,
+      "avatar_url": "https://images.unsplash.com/photo-1526506118085-60ce8714f8c5?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=634&q=80",
+      "name": "Matheus Alves",
+      "email": "mathes12@gmail.com",
+      "birth": 1038873600000,
+      "gender": "M",
+      "weight": "54",
+      "height": "180"
+    }
+  ],
+  "instructors": [
+    {
+      "id": 2,
+      "name": "Joao",
+      "avatar_url": "https://images.unsplash.com/photo-1526506118085-60ce8714f8c5?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=634&q=80",
+      "birth": 975801600000,
+      "gender": "M",
+      "services": "Musculação,crossfit",
+      "created_at": 1581197274517
+    },
+    {
+      "id": 2,
+      "name": "Matheus Alves",
+      "avatar_url": "https://source.unsplash.com/collection/3465564/500x500",
+      "birth": 239414400000,
+      "gender": "M",
+      "services": "Musculação,crossfit",
+      "created_at": 1581394900643
+    },
+    {
+      "id": 3,
+      "name": "Cida Cassiano",
+      "avatar_url": "https://unsplash.com/photos/sHfo3WOgGTU",
+      "birth": 949449600000,
+      "gender": "F",
+      "services": "Musculação,crossfit,Natação",
+      "created_at": 1581395100736
+    }
+  ]
+}

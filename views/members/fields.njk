@@ -1,0 +1,93 @@
+<div class="item">
+        <div>Avatar URL</div>
+        <div>
+            <input
+            type="url"
+            name="avatar_url"
+            placeholder="http://"
+            value="{{ member.avatar_url }}"
+            >
+        </div>
+    </div>
+
+    <div class="item">
+        <div>Nome</div>
+        <div>
+            <input
+            type="text"
+            name="name"
+            placeholder="Nome do Membro"
+            value="{{ member.name }}"
+            >
+        </div>
+    </div>
+
+    <div class="item">
+        <div>Email</div>
+        <div>
+            <input
+            type="email"
+            name="email"
+            value="{{ member.email }}"
+            >
+        </div>
+    </div>
+
+    <div class="item">
+        <div>Data de nascimento</div>
+        <div>
+            <input 
+            type="date"
+            name="birth"
+            value="{{ member.birth }}"
+            >
+        </div>
+    </div>
+
+    <div class="item">
+        <div>Sexo</div>
+        <div>
+            <span><input 
+                type="radio" 
+                name="gender" 
+                value="M" 
+                {% if member.gender == "M" %}
+                    checked
+                {% endif %} >Masculino
+            </span>
+            <span><input 
+                type="radio" 
+                name="gender" 
+                value="F"
+                {% if member.gender == "F" %}
+                    checked
+                {% endif %}
+                >Feminino
+            </span>
+        </div>
+    </div>
+
+    <div class="item">
+        <div>Peso (KG)</div>
+        <div>
+            <input
+            type="number"
+            name="weight"
+            value="{{ member.weight }}"
+            >
+        </div>
+    </div>
+
+    <div class="item">
+        <div>Altura (CM)</div>
+        <div>
+            <input
+            type="number"
+            name="height"
+            value="{{ member.height }}"
+            >
+        </div>
+    </div>
+
+
+    <button type="submit" >Salvar</button>
